@@ -12,6 +12,11 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
 dd {
   font-weight: bold;
 }
@@ -37,4 +42,18 @@ button:focus {
 
 .p-1 {
   padding: 1px;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+input {
+  display: block;
+  margin: 5px;
 }
